@@ -10,6 +10,7 @@ This profile is linked to my work as a student in CSCI 630 at CSU Chico.
 - Contributed in setting up linter workflow using GitHub actions.(https://github.com/ChicoState/PantryNode/issues/48)
 - Investigated a bug in item expiry feature. (https://github.com/ChicoState/PantryNode/issues/200)
 - Created majority of API endpoints for donor-lookup, donation feature.(https://github.com/ChicoState/PantryNode/issues/193)
+- Ensured authentication is present in existing endpoints. (https://github.com/ChicoState/PantryNode/issues/235)
 
 ### PantryNode
 
