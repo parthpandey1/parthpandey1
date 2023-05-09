@@ -13,54 +13,74 @@ This profile is linked to my work as a student in CSCI 630 at CSU Chico.
 
 ### PantryNode
 
-| Type                      | Link                                 | Notes                                                           |
-| ------------------------- | ------------------------------------ | --------------------------------------------------------------- |
-| Code Review               | ChicoState/PantryNode/pull/36        | React Boiler plate for the PantryNode                           |
-| Code Review               | ChicoState/PantryNode/pull/74        | Navigation pages, components for frontend                       |
-| Discussion                | Chicostate/PantryNode/discussions/30 | Migrate to React (TS)                                           |
+| Type                      | Link                                                                                     | Notes                                                            |
+| ------------------------- | ---------------------------------------------------------------------------- | -----------------------------------------------------------------|
+| Bug logging               | ChicoState/PantryNode/issues/48                                                          | Created an issue for resolving workflow rule for extra semicolons|
+| Pull request              | ChicoState/PantryNode/pull/53                                                            | Resolved linter semicolon issues.                           |
+| Code Review               | ChicoState/PantryNode/pull/50                                                            | Reviewed a PR to run linter locally.                          |
+| Commit                    | https://github.com/ChicoState/PantryNode/commit/0ebb4d2263c725bb8f30197cf5f6cd1620715bbd | Incorporated changes based on code review.                         |
+| Commit                    | https://github.com/ChicoState/PantryNode/commit/1cdabd5bab8392d9a4ff0eac07c63683ed02a823 | Resolved merge conflict.                   |
+| Code Review               | ChicoState/PantryNode/pull/85        | Reviewed Bump Passport from 0.4.1 to 0.6.0                       |
+| Code Review               | ChicoState/PantryNode/pull/84        | Reviewed a PR to Add signup and login page.                      |
+| Code Review               | ChicoState/PantryNode/pull/173       | Reviewed a PR to implement items/expired endpoint.               |
+| Code Review               | ChicoState/PantryNode/pull/221       | Reviewed a PR to Set eslint no-var rule to error.                |
+| Code Review               | ChicoState/PantryNode/pull/178       | Reviewed a PR to update containers to use polling.               |
+| Bug logging               | ChicoState/PantryNode/issues/223     | Created an issue to track on-demand report generation feature.   |
+| Discussion                | https://github.com/ChicoState/PantryNode/issues/193#issuecomment-1530105312       | Discussed the methodology to implement donor-lookup endpoint.               |
+| Commit                | https://github.com/ChicoState/PantryNode/pull/217/commits/6e31f4554bd453c8030bf75ce5237b5af121de74       | Implemented an endpoint to get all donors (/donors)                |
+| Discussion                | https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1529470105        | Added testing steps for /donors endpoint.|
+| Commit               | https://github.com/ChicoState/PantryNode/pull/217/commits/5181aabe43ace471f7513065f5fcff6b43022f63        | Implemented an endpoint to search donors using name or id. (/lookupDonor)                       |
+| Discussion               | https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1531149852        | Added testing steps for /lookupDonor endpoint                       |
+| Commit               | https://github.com/ChicoState/PantryNode/pull/217/commits/240afa84fffec2885a34ce71542c4d0e871103fd        | Implemented an endpoint to get all donations by a donor (/donations/:person_id)                       |
+| Discussion               | https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533809428        | Added testing steps for /donations/:person_id endpoint.                       |
+| Commit               | https://github.com/ChicoState/PantryNode/pull/217/commits/3f14d1194311b02e944270aef5cca82c92bf22d0        | Implemented an endpoint to donate items. |
+| Discussion               | https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533852452        | Added testing steps for /donate endpoint.                       |
+| Code Review               | ChicoState/PantryNode/pull/226      | Reviewed a PR for On-Demand Report backend.                       |
+| Bug logging               | ChicoState/PantryNode/issues/235     | Created an issue to add authentication to existing routes.   |
+
 ### Timeline
 
 - Sprint #1 - Started Feb 27th, 2023
-  - DC - ChicoState/PantryNode/issues/26
-  - CR - ChicoState/PantryNode/pull/36
-  - DC - ChicoState/PantryNode/discussions/38#discussioncomment-5184946
+  - BL - ChicoState/PantryNode/issues/48
+  - PR - ChicoState/PantryNode/pull/53
+  - CR - ChicoState/PantryNode/pull/50
+
 - Sprint #2 - Started Mar 21st, 2023
 
-  - CR - ChicoState/PantryNode/pull/74
-  - DC - Chicostate/PantryNode/discussions/30#discussioncomment-5435746
-  - BL - ChicoState/PantryNode/issues/76
-  - DC - ChicoState/PantryNode/issues/76
-  - BL - ChicoState/PantryNode/issues/78
-  - CR - ChicoState/PantryNode/pull/79
-  - CR - ChicoState/PantryNode/pull/60
-  - CR - ChicoState/PantryNode/pull/63
+  - CO - https://github.com/ChicoState/PantryNode/commit/0ebb4d2263c725bb8f30197cf5f6cd1620715bbd
+  - CO - https://github.com/ChicoState/PantryNode/commit/1cdabd5bab8392d9a4ff0eac07c63683ed02a823
   - CR - ChicoState/PantryNode/pull/85
-  - CR - ChicoState/PantryNode/pull/87
-  - CR - ChicoState/PantryNode/pull/88
   - CR - ChicoState/PantryNode/pull/84
-  - DC - ChicoState/PantryNode/pull/84
-  - PR - ChicoState/PantryNode/pull/90
-  - BL - ChicoState/PantryNode/issues/89
-  - PR - ChicoState/PantryNode/pull/92
-  - DC - ChicoState/PantryNode/issues/46
 
 - Sprint #3 - Started April 4th, 2023
 
-  - DC - ChicoState/PantryNode/discussions/94
-  - BL - ChicoState/PantryNode/issues/95
+  - Did a POC for item expiry feature. Was facing issues testing out API endpoints locally.
 
 
 - Sprint #4 - Started April 25th, 2023
-  - CR - ChicoState/PantryNode/pull/203
-  - CR - ChicoState/PantryNode/pull/195
-  - CR - ChicoState/PantryNode/pull/209
-  - DC - ChicoState/PantryNode/pull/197
-  - CR - ChicoState/PantryNode/pull/220
-  - CR - ChicoState/PantryNode/pull/228
+  - CR - ChicoState/PantryNode/pull/173
+  - CR - ChicoState/PantryNode/pull/221
+  - CR - ChicoState/PantryNode/pull/178
+  - BL - ChicoState/PantryNode/issues/223
+  - DC - https://github.com/ChicoState/PantryNode/issues/193#issuecomment-1530105312
+  - CO - https://github.com/ChicoState/PantryNode/pull/217/commits/6e31f4554bd453c8030bf75ce5237b5af121de74
+  - DC - https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1529470105
+  - CO - https://github.com/ChicoState/PantryNode/pull/217/commits/5181aabe43ace471f7513065f5fcff6b43022f63
+  - DC - https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1531149852
+  - CO - https://github.com/ChicoState/PantryNode/pull/217/commits/240afa84fffec2885a34ce71542c4d0e871103fd
+  - DC - https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533809428
+  - CO - https://github.com/ChicoState/PantryNode/pull/217/commits/3f14d1194311b02e944270aef5cca82c92bf22d0
+  - DC - https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533852452
+  - CR - ChicoState/PantryNode/pull/226
+
+
+- Sprint #5 - Started May 9th, 2023
+  - BL - ChicoState/PantryNode/issues/235
 
 **Key:**
 
-- **PR** - PullRequest - I wrote code.
+- **PR** - PullRequest - I wrote code and opened a new PR.
 - **CR** - CodeReview - I reviewed someone's change.
 - **BL** - BugLogging - I filed/created a GitHub Issue.
 - **DC** - Discussion - I started a discussion or discussed a topic relevant to the PR/Issue/Discussion
+- **CO** - Commit - I pushed code changes to an open PR.
