@@ -73,7 +73,7 @@ This profile is linked to my work as a student in CSCI 630 at CSU Chico.
   - CO - https://github.com/ChicoState/PantryNode/pull/217/commits/3f14d1194311b02e944270aef5cca82c92bf22d0
   - DC - https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533852452
   - CR - ChicoState/PantryNode/pull/226
-  - In addition to the above, I investigated ChicoState/PantryNode/issues/200 with @briswells
+  - In addition to the above, I investigated ChicoState/PantryNode/issues/200 with https://github.com/briswells
 
 
 - Sprint #5 - Started May 9th, 2023
