@@ -38,6 +38,7 @@ This profile is linked to my work as a student in CSCI 630 at CSU Chico.
 | Discussion               | https://github.com/ChicoState/PantryNode/pull/217#issuecomment-1533852452        | Added testing steps for /donate endpoint.                       |
 | Code Review               | ChicoState/PantryNode/pull/226      | Reviewed a PR for On-Demand Report backend.                       |
 | Bug logging               | ChicoState/PantryNode/issues/235     | Created an issue to add authentication to existing routes.   |
+| Pull Request               | ChicoState/PantryNode/pull/239     | Pull request to authenticate exisiting routes on backend/src/routes/sale.js file.   |
 
 ### Timeline
 
@@ -78,6 +79,7 @@ This profile is linked to my work as a student in CSCI 630 at CSU Chico.
 
 - Sprint #5 - Started May 9th, 2023
   - BL - ChicoState/PantryNode/issues/235
+  - PR - ChicoState/PantryNode/pull/239
 
 **Key:**
 
